@@ -9,8 +9,8 @@ def main():
     while roll_again == "yes" or roll_again == "y":
         print("Rolling the die...")
         print("The values are....")
-        print(random.randint(min, max))
-        print(random.randint(min, max))
+        print("Die 1 rolled:" + str(random.randint(min, max)))
+        print("Die 2 rolled:" + str(random.randint(min, max)))
 
         roll_again = input("Roll the dices again?")
 
